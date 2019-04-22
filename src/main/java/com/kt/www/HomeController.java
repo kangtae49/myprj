@@ -41,4 +41,11 @@ public class HomeController {
 		return "home";
 	}
 	
+	@RequestMapping(value = "/tiles", method = RequestMethod.GET)
+	public String tiles(Locale locale, Model model) {
+		
+		return "DEFAULT.body/body";
+	}
+	
+	
 }
