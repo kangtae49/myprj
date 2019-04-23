@@ -3,6 +3,7 @@
 <tiles-definitions>
 
 	<definition name="default" template="/WEB-INF/tiles/layout/template.jsp">
+		<put-attribute name="inc" value="/WEB-INF/tiles/layout/inc.jsp"/>
 		<put-attribute name="header" value="/WEB-INF/tiles/layout/header.jsp"/>
 		<put-attribute name="body" />
 		<put-attribute name="footer" value="/WEB-INF/tiles/layout/footer.jsp"/>
